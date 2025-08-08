@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.mansi.tutorialsninja.listeners.Listeners"/>
+    </listeners>
+    <test verbose="2" thread-count="4" preserve-order="true" name="D:/Study/Java/Workspace/TutorialsNinjaWebApplication">
+        <classes>
+            <class name="com.mansi.tutorialsninja.tests.LoginTest"/>
+            <class name="com.mansi.tutorialsninja.tests.RegisterTest"/>
+            <class name="com.mansi.tutorialsninja.tests.SearchTest"/>
+            <class name="com.mansi.tutorialsninja.tests.AddToCartTest"/>
+            <class name="com.mansi.tutorialsninja.tests.CheckoutTest"/>
+        </classes>
+    </test>
+</suite>
