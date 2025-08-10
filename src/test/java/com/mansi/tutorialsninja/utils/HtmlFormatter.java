@@ -9,6 +9,11 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * This class provides methods to format HTML files by removing leading empty lines
+ *
+ * @author Mansi Garg
+ */
 public class HtmlFormatter {
 
     private static final Logger LOG = LogManager.getLogger(HtmlFormatter.class);
